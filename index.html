@@ -3,110 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaginaWeb</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://kit.fontawesome.com/f0c7b800e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/Happy.png">
+    
+    <title>LeafBow</title>
 </head>
 <body>
-    <header id="encabezado">
-        <div class="logo_container">
-            <i class="fa-brands fa-envira"></i>
+    <header class="container-header">
+        <div class="container-icon">
+            <a href="index.html"><i class="fa-solid fa-leaf"></i></a>
         </div>
-        <nav class="links_container">
-            <input type="checkbox" id="check" />
-            <label for="check" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-            </label>
-            <ul class="links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de mí</a></li>
-                <li><a href="#">Trabajos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+        <nav class="container-navbar">
+            <ul class="navbar">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Acerca de mí</a></li>
+                <li><a href="">Trabajos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="section_acerca">
-            <div class="acerca_container">
-                <div class="info_container">
-                    <div class="Titulo_1">
-                        <h2>
-                            Acerca de mí
-                        </h2>
+    <main class="container-main">
+        <section class="container-acerca">
+            <div class="texto-acerca">
+
+                <h2>Acerca de mí</h2>
+                <p>Bienvenido a mi página, aqui aprenderas más sobre mi.</p>
+                <p>Me llamo Miguel, naci en Lima y vivo en San Borja. Soy un aspirante a desarrollador Web. Me encantaría aprender a programar para optimizar y automatizar tareas.</p>
+
+            </div>
+            <div class="img-crop">
+                <img src="./img/Happy.png" alt="">
+            </div>
+        </section>
+        <section class="section-carousel">
+            <div class="container-carousel">
+                <div class="carousel" id="slider">
+                    <div class="container-slider">
+                        <img src="./img/pokemon1.jpg" alt="poke1">
                     </div>
-                    <div class="p_1">
-                        <p>Bienvenido a mi página Aqui, aprenderas más sobre mí.</p>
+                    <div class="container-slider">
+                        <img src="./img/pokemon2.png" alt="poke2">
                     </div>
-                    <div class="p_2">
-                        <p> Me llamo Tere, naci en Buenos Aires y vivo en Caballito.Me gusta el helado y salir a pasear en dias de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+                    <div class="container-slider">
+                        <img src="./img/pokemon3.png" alt="poke3">
                     </div>
                 </div>
-                
-                <div class="img_container">
-                    <img src="./img/gato.jpeg" alt="gato.jpeg">
+                <div  class="container-btns">
+                    
+                    <i class="fa-solid fa-chevron-left" class="btn-left"></i>
+                    <i class="fa-solid fa-chevron-right" class = "btn-right"></i>
                 </div>
             </div>
             
         </section>
-        <section class="section_carousel">
-            <div class="img_container_2">
-                <img src="./img/fondo.jpeg" alt="fondo.jpeg">
-            </div>
+        <section class="section-works">
+                <h2>
+                    Trabajos
+                </h2>
+                <div class="container-works">
+                    <div class="work">
+                        <div class="img-crop-2">
+                            <img src="./img/escritorio.jpeg" alt="">
+                        </div>
+                        <h2>Titulo1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem atque possimus repudiandae minima molestiae doloremque distinctio consequatur, fugit sapiente deserunt harum illum veritatis quos quaerat non iusto, provident id perferendis!</p>
+                        <a href="">leer más</a>
+                    </div>
+                    <div class="work">
+                        <div class="img-crop-2">
+                            <img src="./img/escritorio.jpeg" alt="">
+                        </div>
+                        
+                        <h2>Titulo1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium esse aliquam ipsum ea culpa veritatis. Nisi velit aspernatur illum adipisci dicta, dolorem rerum laudantium quos quibusdam consectetur. Cumque, laboriosam quidem!</p>
+                        <a href="">leer más</a>
+                    </div>
+                    <div class="work">
+                        <div class="img-crop-2">
+                            <img src="./img/escritorio.jpeg" alt="">
+                        </div>
+                        <h2>Titulo1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem consectetur adipisci nam, facere laudantium, ratione, neque voluptatibus quidem architecto doloribus temporibus tempora. Animi ex eveniet ea dolorum. Sit, ipsa.</p>
+                        <a href="">leer más</a>
+                    </div>
+                </div>
         </section>
-        <section class="section_works">
-            <div class="titulo_2">
-                <h2>Trabajos</h2>
-            </div>
-            <div class="trabajos_container">
-                <div class="trabajo">
-                    <img src="./img/escritorio.jpeg" alt="">
-                    <h3>
-                        Titulo 1
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nesciunt ea fuga atque asperiores quo minima deserunt sed ut eaque similique, nam suscipit, nostrum nisi fugit neque. Nulla, maxime voluptatem?
-                    </p>
-                    <a href="">Leer más</a>
+        <section class="section-form">
+            <h1>
+                Contacto
+            </h1>
+            <p>
+                Esperamos tu consulta!
+            </p>
+            <form action="#" autocomplete="off" class="form_1" id="form">
+                <div class="form-part">
+                    <label for="Nombre" >Nombre</label>
+                    <input type="text" name = "nombre" id="Nombre">
                 </div>
-                <div class="trabajo">
-                    <img src="./img/escritorio.jpeg" alt="">
-                    <h3>
-                        Titulo 1
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nesciunt ea fuga atque asperiores quo minima deserunt sed ut eaque similique, nam suscipit, nostrum nisi fugit neque. Nulla, maxime voluptatem?
-                    </p>
-                    <a href="">Leer más</a>
+                <div class="form-part">
+                    <label for="Email">Email</label>
+                    <input type="email" name = "email" id="Email" placeholder="pepe@gmail.com">
                 </div>
-                <div class="trabajo">
-                    <img src="./img/escritorio.jpeg" alt="">
-                    <h3>
-                        Titulo 1
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nesciunt ea fuga atque asperiores quo minima deserunt sed ut eaque similique, nam suscipit, nostrum nisi fugit neque. Nulla, maxime voluptatem?
-                    </p>
-                    <a href="">Leer más</a>
+                <div class="form-part">
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="Mensaje" ></textarea>
                 </div>
-               
-            </div>
+                <div class="form-part-2">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
-    <footer>
-        <h2>
-            Contacto
-        </h2>
-        <nav class="redes_container">
-            <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">TikTok</a></li>
-                <li><a href="">WhatsApp</a></li>
-            </ul>
-        </nav>
-        <div class="logo_2">
-            <a href="#"><i class="fa-brands fa-envira"></i></a>
-        </div>
+    <footer class="container-footer">
+        <h1>Redes</h1>
+        <ul class="redes">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Telegram</a></li>
+        </ul>
+        <a href="index.html" class="leaf-start"><i class="fa-solid fa-leaf" ></i></a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
